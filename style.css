@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    font-family: 'Courier New', monospace;
+    background-color: whitesmoke;
+    width:100%;
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0 0 20px 20px;
+    padding:10px 70px;
+    
+}
+.logo{
+    
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+}
+.navigation a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: gray;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.about{
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: 'Courier New', monospace;
+
+}
+.about div{
+    background-color: rgba(68, 67, 67, 0.781);
+    padding: 50px;
+    border-radius: 50px;
+    height: 350px;
+    width: 550px;
+
+}
+
+.about h3{
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.about h3 span{
+    color:rgb(231, 231, 231);
+    font-weight: 600;
+    font-size: 4em;
+    
+}
+.skill{
+    background-color:rgb(226, 224, 224);
+}
+.skill h1{
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.skills div{
+    justify-content: center ;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    box-shadow: 0.4em 0 .4em gray;
+    margin: 20px;
+    width: 400px;
+    font-size: 1.5em; 
+    box-sizing: border-box; 
+}
+
+.skills h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: cursive;
+}
+.skills ul{
+    list-style: none;
+    padding:0 0 0 30px ;
+    font-size: 1.2em;
+}
+.skills li{
+    text-decoration:  none;
+}
+
+/*  proeject starts here */
+
+.projects{
+    background-color: gray;
+}
+.projects h1{
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.project div{
+    justify-content: center ;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    box-shadow: 0.4em 0 .4em black;
+    margin: 20px;
+    width: 400px;
+    font-size: 1.5em; 
+    box-sizing: border-box; 
+}
+
+.project h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: cursive;
+}
+.projects p,a{
+    padding: 20px;
+    text-decoration: none;
+
+}
+.projects a{
+    justify-content: center;
+}
+
+/* information of conntacts */
+.contacts{
+    background-color: rgb(63, 63, 63);
+}
+.contacts h1{
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
