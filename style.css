@@ -3,67 +3,87 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
-header{
     font-family: 'Courier New', monospace;
-    background-color: whitesmoke;
-    width:100%;
-    position: fixed;
-    z-index: 900;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 0 0 20px 20px;
-    padding:10px 70px;
-    
 }
-.logo{
-    
-    text-decoration: none;
-    color: gray;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2em;
-}
-.navigation a{
-    color:black;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 700;
-    padding-left: 30px;
-}
-.navigation a:hover{
-    color: gray;
-}
-
-section{
-    padding: 100px 200px;
-}
-
-.about{
-    width:100%;
-    min-height: 100vh;
-    display:flex;
-    align-items: center;
+body{
     background: url(images/background.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
-    font-family: 'Courier New', monospace;
+}
+
+
+header{
+    position:fixed;
+    display: flex;
+    font-size: 20px;
+    align-items: flex-end;
+    flex: 2;
+    width: 100%;
+    background: rgb(20, 20, 20);
+}
+.name{
+    width: 50%;
+    color: gray;
+    padding-left:10%;
+    padding-bottom: 10px;
+    font-size: 700;
+    font-size: 1.5em;
+    cursor:default;
+}
+
+
+.menu{
+    flex: 2;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height:60px;
+    
 
 }
-.about div{
-    background-color: rgba(68, 67, 67, 0.781);
-    padding: 50px;
-    border-radius: 50px;
-    height: 350px;
-    width: 550px;
 
+
+.menu a{
+    color:gainsboro;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    align-items: flex-start;
+    width:20%;  
+    text-align: center;
+    height: 50px;
+    top: 10px;
+    padding-bottom: 20px;
+}
+.menu a:hover{
+    color: gray;
+    
+    
+}
+
+
+section{
+    padding: 20px;
+}
+
+.about{
+    width:100%;
+    min-height: 700px;
+    padding: 0;
+    
+}
+.info{
+    height: 700px;
+    padding-left: 100px;
+    padding-top: 300px;
+    background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 .about h3{
-    color: white;
+    color:white;
+    text-align: left;
     font-weight: 900;
     font-size: 1.5em;
 }
