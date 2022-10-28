@@ -6,7 +6,7 @@
     font-family: 'Courier New', monospace;
 }
 body{
-    background: url(images/background.jpg) no-repeat;
+    /* background: url(images/background.jpg) no-repeat; */
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
@@ -40,8 +40,6 @@ header{
     justify-content: space-between;
     padding: 0 20px;
     height:60px;
-    
-
 }
 
 
@@ -71,10 +69,13 @@ section{
     width:100%;
     min-height: 700px;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
     
 }
 .info{
     height: 700px;
+    width: 50%;
     padding-left: 100px;
     padding-top: 300px;
     background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
@@ -93,6 +94,15 @@ section{
     font-size: 4em;
     
 }
+
+.empty img{
+    height: 700px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
 .skill{
     background-color:rgb(226, 224, 224);
 }
